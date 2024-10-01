@@ -1,0 +1,55 @@
+.header {
+    background-color: rgba(0, 106, 255, 0.898);
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .inputIconWrapper {
+    position: relative;
+    width: 350px;
+    display: flex;
+    margin-bottom: 6px;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 14px;
+    pointer-events: none;
+  }
+  
+  .input {
+    cursor: pointer;
+    width: 100%;
+    padding-left: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  .input:hover {
+    background-color: #ddd;
+  }
+  
+  .button {
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    height: 30px;
+    padding: 4px 10px;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
