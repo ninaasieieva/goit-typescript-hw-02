@@ -1,7 +1,12 @@
-.list {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  justify-content: center;
-  margin-bottom: 15px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.item {
+  flex-basis: calc((100% - 45px) / 4);
+  margin-bottom: 10px;
 }

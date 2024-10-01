@@ -1,4 +1,9 @@
 .error {
-    color: rgba(255, 0, 0, 0.783);
-    font-size: 20px;
-  }
+  color: red;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.1); /* Світлий червоний фон */
+  border: 1px solid red; /* Рамка для підкреслення */
+  border-radius: 5px;
+  font-weight: bold;
+}

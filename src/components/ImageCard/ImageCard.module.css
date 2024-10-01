@@ -1,4 +1,30 @@
-.imageBox {
-  width: 320px;
-  height: 220px;
+.imageWrapper {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.imageWrapper:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.likes {
+  color: black;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.heartIcon {
+  color: blue;
+  margin-right: 5px;
+  margin-top: 5px;
 }
